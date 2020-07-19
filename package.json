@@ -1,0 +1,22 @@
+{
+  "name": "nlw-starter",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HygorM10/nlw-starter.git"
+  },
+  "keywords": [],
+  "author": "Hygor Martins de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HygorM10/nlw-starter/issues"
+  },
+  "homepage": "https://github.com/HygorM10/nlw-starter#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
