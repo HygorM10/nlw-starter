@@ -1,6 +1,10 @@
 const express = require("express");
 const server = express();
 
+//Configurar Banco de dados
+//Pegar banco de dados
+const db = require("./database/db");
+
 //Utilizando template engine
 const nunjucks = require("nunjucks");
 nunjucks.configure("src/views", {
