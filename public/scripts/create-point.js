@@ -60,6 +60,8 @@ function handleItemClick(event) {
 
     const itemId = itemLi.dataset.id;
 
+    console.log('Item ID: ', itemId);
+
     const alreadySelected = selectedItems.findIndex(item => {
         return item == itemId;
     });
@@ -75,6 +77,7 @@ function handleItemClick(event) {
         selectedItems.push(itemId);
     }
 
+    console.log('selected items: ', selectedItems);
     collectedItems.value = selectedItems;
 
 }
